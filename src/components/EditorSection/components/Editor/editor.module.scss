@@ -1,0 +1,22 @@
+.editorStyles{
+    height: 24rem;
+    width: 100%;
+    overflow: scroll;
+    scroll-behavior: smooth;
+    :global(.cm-theme-light){
+      height: 24rem;
+      :global(.cm-editor){
+        height: 24rem;
+        background-color: #f0f0f0;
+        :global(.cm-gutters){
+          background-color: #e5e7eb;
+          height: 24rem;
+        }
+      }
+    }
+}
+
+.customButton:focus, .customButton:active {
+  outline: none;
+  box-shadow: none;
+}
